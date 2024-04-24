@@ -1,0 +1,10 @@
+.emoji_container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    padding: 5px 5px 5px 5px
+}
