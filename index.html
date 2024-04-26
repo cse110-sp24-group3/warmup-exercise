@@ -24,13 +24,29 @@
                         <p id='emotion_text'>Emotion:</p>
                         <div class="slidecontainer">
                             <div class="emoji_container">
-                                <img src="images/1.svg" alt="Angry Emotion">
-                                <img src="images/2.svg" alt="Sad Emotion">
-                                <img src="images/3.svg" alt="Neutral Emotion">
-                                <img src="images/4.svg" alt="Happy Emotion">
-                                <img src="images/5.svg" alt="Excited Emotion">
+                                <img src="images/1.svg" class="icon" alt="Angry Emotion">
+                                <img src="images/2.svg" class="icon" alt="Sad Emotion">
+                                <img src="images/3.svg" class="icon" alt="Neutral Emotion">
+                                <img src="images/4.svg" class="icon" alt="Happy Emotion">
+                                <img src="images/5.svg" class="icon" alt="Excited Emotion">
                             </div>
                             <input type="range" min="1" max="5" value="3" step="1" class="slider" id="myRange">
+                            <script>
+                                const slider = document.getElementById("myRange");
+                                const icons = document.querySelectorAll('.icon');
+                                icons[2].classList.add('selected');
+                                slider.addEventListener('input', function() {
+                                    const value = parseInt(this.value);
+
+                                    // Remove 'selected' class from all images
+                                    icons.forEach(icon => {
+                                        icon.classList.remove('selected');
+                                    });
+
+                                    // Add 'selected' class to the image corresponding to the slider value
+                                    icons[value - 1].classList.add('selected');
+                                });
+                            </script>
                         </div>
                         <br>
                         <button type="button">Submit</button>

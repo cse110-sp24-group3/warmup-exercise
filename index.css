@@ -21,6 +21,10 @@ img {
     padding: 5px 5px 5px 5px
 }
 
+.icon.selected {
+    transform: scale(1.2);
+}
+
 .slider {
     display: flex;
     justify-content: center;
