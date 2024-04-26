@@ -8,6 +8,8 @@ Its purpose is to be a simple light weight data gathering widget that is accessi
 ## How to Use:
 To interact with the widget, simply use the slider to move the arrow to the desire reaction emoji. Users can also use tab to transition into the slider and the arrow keys to switch emotions.
 
+The selected emotion/rating is enlarged and glows for accessibility and aesthetic reasons.
+
 When users are satisfied with their selection, they may click submit and their answer will be recorded. 
 
 ## Dev Notes
