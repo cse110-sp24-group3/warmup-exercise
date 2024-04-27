@@ -24,11 +24,11 @@
                         <p id='emotion_text'>Emotion:</p>
                         <div class="slidecontainer">
                             <div class="emoji_container">
-                                <img src="images/1.svg" class="icon" alt="Angry Emotion">
-                                <img src="images/2.svg" class="icon" alt="Sad Emotion">
-                                <img src="images/3.svg" class="icon" alt="Neutral Emotion">
-                                <img src="images/4.svg" class="icon" alt="Happy Emotion">
-                                <img src="images/5.svg" class="icon" alt="Excited Emotion">
+                                <img onclick="imgMovesSlider(1)" src="images/1.svg" class="icon" alt="Angry Emotion">
+                                <img onclick="imgMovesSlider(2)" src="images/2.svg" class="icon" alt="Sad Emotion">
+                                <img onclick="imgMovesSlider(3)" src="images/3.svg" class="icon" alt="Neutral Emotion">
+                                <img onclick="imgMovesSlider(4)" src="images/4.svg" class="icon" alt="Happy Emotion">
+                                <img onclick="imgMovesSlider(5)" src="images/5.svg" class="icon" alt="Excited Emotion">
                             </div>
                             <input type="range" min="1" max="5" value="3" step="1" class="slider" id="myRange">
                             <script>
@@ -46,6 +46,15 @@
                                     // Add 'selected' class to the image corresponding to the slider value
                                     icons[value - 1].classList.add('selected');
                                 });
+                                
+                                function imgMovesSlider(value){
+                                    const slider = document.getElementById("myRange");
+                                    slider.value = value;
+                                    icons.forEach(icon => {
+                                        icon.classList.remove('selected');
+                                    });
+                                    icons[value - 1].classList.add('selected');
+                                }
                             </script>
                         </div>
                         <br>
