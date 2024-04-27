@@ -72,6 +72,10 @@ button {
     letter-spacing: 1px;
     color: rgb(24, 24, 24);
 }
+button:hover{
+    background-color: rgb(66, 75, 124);
+    color: rgb(0, 0, 0);
+}
 p {
     font-variant-ligatures: discretionary-ligatures;
     font-variant-numeric: ordinal;
