@@ -20,7 +20,7 @@ The emotion sliders function as intended, seen here
 ![emotion 4 selected](images/emotion4selected.png "Emotion 4 selected")
 ![emotion 5 selected](images/emotion5selected.png "Emotion 5 selected")
 
-The response after pressing submit has not been implemented yet, so 
+The response after pressing submit has not been implemented yet, so we can say that point 8 is not achieved.
 
 On the mobile simulator using Firefox's DevTools, the slider is not usable.
 It responds to tapping the desired position, but does not slide.
