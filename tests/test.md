@@ -37,6 +37,9 @@ However, the horizontal layout appears fine as well, seen here
 
 ![iPhone 14 horizontal layout](images/iPhone14horizontal.png "iPhone 14 horizontal layout")
 
+**This has now been fixed, thank you Rei!**
+![iPhone 14 horizontal layout fix](images/iPhone14horizontalfixed.png "iPhone 14  horizontal layout fix")
+
 ### Galaxy 20
 The vertical layout appears fine, as seen here
 
@@ -46,6 +49,10 @@ However, the horizontal layout cuts off the submit button.
 This is undesired behavior because it violates point 2 in the desired behavior.
 
 ![Galaxy 20 horizontal layout](images/galaxy20horizontal.png "Galaxy 20 horizontal layout")
+
+**This has now been fixed, thank you Rei!**
+![Galaxy 20 horizontal layout fix](images/galaxy20horizontalfixed.png "Galaxy 20 horizontal layout fix")
+
 
 ## Summary
 - [x] Users must be able to see 5 emotions in a row.
