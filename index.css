@@ -44,8 +44,8 @@ emotion-widget {
     position: relative;
     justify-content: center;    
     align-items: center;
-    height: 50%;
     width: 100%;
+    height: calc(100vh -70px);
 }
 #content-wrapper {
     border: 14px #3f3f3f solid;
@@ -74,4 +74,9 @@ button {
 p {
     font-variant-ligatures: discretionary-ligatures;
     font-variant-numeric: ordinal;
+}
+
+header{
+    height: 70px;
+    margin: 0%;
 }
