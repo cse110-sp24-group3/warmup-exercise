@@ -46,7 +46,7 @@ emotion-widget {
     justify-content: center;    
     align-items: center;
     width: 100%;
-    height: calc(100vh -70px);
+    height: calc(100vh -100px);
 }
 #content-wrapper {
     border: 14px #3f3f3f solid;
@@ -55,7 +55,7 @@ emotion-widget {
     box-shadow: 6px 7px 11px -7px rgba(0,0,0,0.43);
 }
 main {
-    overflow: hidden;
+    overflow: scroll;
     height: 100vh;
 }
 button {
@@ -89,5 +89,11 @@ header{
 @media screen and (min-width: 300px) {
     header {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 500) {
+    #content-wrapper {
+        overflow: scroll;
     }
 }
