@@ -21,6 +21,8 @@ The emotion sliders function as intended, seen here
 ![emotion 5 selected](images/emotion5selected.png "Emotion 5 selected")
 
 The response after pressing submit has not been implemented yet, so we can say that point 8 is not achieved.
+__Update: Thank you Isabelle, this has been implemented__
+![submit button response](images/submitresponse.png "submit button response")
 
 On the mobile simulator using Firefox's DevTools, the slider is not usable.
 It responds to tapping the desired position, but does not slide.
@@ -56,13 +58,13 @@ This is undesired behavior because it violates point 2 in the desired behavior.
 
 ## Summary
 - [x] Users must be able to see 5 emotions in a row.
-- [ ] Users must be able to see a submit button below the slider.
-    - Does not work on horizontal mobile layouts.
+- [x] Users must be able to see a submit button below the slider.
+    - __UPDATE: FIXED__ Does not work on horizontal mobile layouts.
 - [x]  Users must be able to move the slider left and right.
 - [x]  Users must be able to see the currently selected emotion glow in response.
 - [x]  Users must be able to enter a name into a text box above the emotion slider.
-- [ ]  Users must be able to press submit after entering a name.
-    - The partially viewable submit button is still clickable, but users may not notice or know its purpose.
+- [x]  Users must be able to press submit after entering a name.
+    - __UPDATE: FIXED__ The partially viewable submit button is still clickable, but users may not notice or know its purpose.
 - [ ]  Users should not be able to enter an empty name.
-- [ ]  The submit button should respond when pressed.
-- [ ]  The site should flow with mobile layouts.
+- [x]  The submit button should respond when pressed.
+- [x]  The site should flow with mobile layouts.
