@@ -58,6 +58,8 @@ main {
     overflow: scroll;
     height: 100vh;
 }
+
+/* styling for the button */
 button {
     float: right;
     padding: 8px;
@@ -72,6 +74,8 @@ button {
     letter-spacing: 1px;
     color: rgb(24, 24, 24);
 }
+
+/* hovering over the button change the background's colors */
 button:hover{
     background-color: rgb(66, 75, 124);
     color: rgb(0, 0, 0);
@@ -92,6 +96,7 @@ header{
     }
 }
 
+/* allowing the screen to have the scroll on the side when it hits the pixel value */
 @media screen and (min-width: 500) {
     #content-wrapper {
         overflow: scroll;
